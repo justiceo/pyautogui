@@ -98,3 +98,17 @@ The locateCenterOnScreen() function returns the center of this match region:
     (1441, 582)
     >>> pyautogui.click(buttonx, buttony)  # clicks the center of where the button was found
 ```
+
+
+Todo
+----
+- create a pyautogui script generator that records mouse and keyboard actions
+  and translates them into pyautogui commands
+- refactor the code for some oop - good way to learn the code!
+- extract out keymappings to a file - it's too much to be in code
+- make screenshot work on linux (ubuntu at least)
+- add some machine learning to it - great help with image and text processing
+- implement additional functions on pyautogui
+    * click and drag
+    * find and click text (or get text location then use click function)
+    
